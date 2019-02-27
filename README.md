@@ -38,3 +38,53 @@ ArrayObject: This class allows objects to work as arrays.
 SplObserver
 
 SplSubject
+
+数据结构：
+数据结构
+SplDoublyLinkedList — The SplDoublyLinkedList class
+SplStack — The SplStack class
+SplQueue — The SplQueue class
+SplHeap — The SplHeap class
+SplMaxHeap — The SplMaxHeap class
+SplMinHeap — The SplMinHeap class
+SplPriorityQueue — The SplPriorityQueue class
+SplFixedArray — The SplFixedArray class
+SplObjectStorage — The SplObjectStorage class
+
+
+SPL 函数
+class_implements — 返回指定的类实现的所有接口。
+class_parents — 返回指定类的父类。
+class_uses — Return the traits used by the given class
+iterator_apply — 为迭代器中每个元素调用一个用户自定义函数
+iterator_count — 计算迭代器中元素的个数
+
+spl_classes — 返回所有可用的SPL类
+spl_object_hash — 返回指定对象的hash id
+spl_object_id — Return the integer object handle for given object
+
+文件处理
+SplFileInfo — The SplFileInfo class
+SplFileObject — The SplFileObject class
+SplTempFileObject — The SplTempFileObject class
+各种类及接口
+ArrayObject — The ArrayObject class
+SplObserver — The SplObserver interface
+SplSubject — The SplSubject interface
+
+还有各种  spl_autoload_*  ；spl_autoload （__autoload()函数的默认实现）  ==》 就是程序员没有指定类文件位置===》这里做一下补救
+
+
+哎！ 发现我需要考的不光光 这一块 而是整个手册。
+http://php.net/manual/zh/index.php
+
+PHP
+http://php.net/manual/zh/index.php 手册
+。。。。。。不活了，要学的这么多
+
+
+
+
+
+
+
